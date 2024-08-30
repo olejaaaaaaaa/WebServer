@@ -1,0 +1,14 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "*"
+tokio = { version = "1.12", features = ["full"] }
+tokio-stream = "0.1"
+tokio-tungstenite = "0.23.1"
+anyhow = "1.0"
+futures-util = "0.3"
+futures-channel = "0.3.28"
+env_logger = "*"
